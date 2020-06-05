@@ -228,7 +228,7 @@ body.lock {
 .actions-header__language {
   position: relative;
   margin-left: 3.6458vw;
-  z-index: 0;
+  z-index: -1;
 }
 
 .actions-header__language:after {
