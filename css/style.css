@@ -228,7 +228,6 @@ body.lock {
 .actions-header__language {
   position: relative;
   margin-left: 3.6458vw;
-  z-index: -1;
 }
 
 .actions-header__language:after {
@@ -1438,6 +1437,29 @@ body.lock {
     left: 0;
   }
 
+  .header__logo {
+    margin-right: 0;
+  }
+
+  .actions-header__language:after {
+    content: none;
+  }
+
+  .actions-header__language {
+    margin: 15px 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .actions-header__select {
+    width: 64px;
+    right: 0;
+  }
+
   .about {
     margin-top: -750px;
   }
@@ -1528,7 +1550,6 @@ body.lock {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100px;
             flex: 0 1 100px;
-    margin-right: 0;
   }
 
   .form-subscribe {
